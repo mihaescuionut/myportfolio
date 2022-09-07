@@ -20,7 +20,7 @@ export default()=>{
 
         <div className="min-h-screen relative">
 
-            <div className="grid grid-cols-2 justify-stretch gap-16 items-stretch border-b-[10rem] border-myGreen w-full -z-index-4 px-8 md:grid-cols-4 relative">
+            <div className="grid grid-cols-2 justify-stretch gap-4 lg:gap-16 items-stretch border-b-[10rem] border-myGreen w-full -z-index-4 px-8 md:grid-cols-4 relative">
 
                 <div className="flex flex-col justify-center items-center gap-8 bg-white p-6 -mb-40 rounded-md hover:-translate-y-1.5 transition-all duration-300">
                     

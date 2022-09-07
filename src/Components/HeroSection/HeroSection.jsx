@@ -13,7 +13,7 @@ import facebook from "../../assets/facebook.svg";
 
 export default () => {
   return (
-    <section className="relative hero-section bg-bgSection p-8 shadow-xl shadow-shadowColor m-8">
+    <section className="relative hero-section bg-bgSection p-8 shadow-xl shadow-shadowColor md:m-8">
       <div className="bg-green-400 absolute -top-12 -right-20 rectangleHeader w-48 h-40">
         &nbsp;
       </div>
@@ -37,7 +37,7 @@ export default () => {
         <div className="flex flex-row justify-between items-center w-full gap-8 lg:flex-col lg:w-1/2">
           <div className="flex flex-row flex-wrap gap-8 font-bold w-full md:w-2/3 lg:gap-16 ">
             <div className="space-y-4 w-full">
-              <p className="text-myGreen text-3xl lg:text-4xl xl:text-6xl">
+              <p className="text-myGreen text-3xl mt-8 md:mt-0 lg:text-4xl xl:text-6xl">
                 CREATIVE
               </p>
               <p className="text-lightBlack text-4xl lg:text-5xl xl:text-7xl">
@@ -57,7 +57,7 @@ export default () => {
                 Motivation and the desire for continuous development are one of
                 the keys to success.{" "}
               </p>
-              <button className="p-4 w-2/3 bg-lightBlack text-white font-bold text-xl rounded-sm shadow-lg shadow-shadowColor hover:-translate-y-1.5 transition-all duration-300">
+              <button className="p-4 w-full bg-lightBlack text-white font-bold text-md rounded-sm shadow-lg shadow-shadowColor hover:-translate-y-1.5 transition-all duration-300 md:text-xl md:w-2/3">
                 CONTACT ME
               </button>
             </div>
