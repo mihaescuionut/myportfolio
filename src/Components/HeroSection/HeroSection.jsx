@@ -57,7 +57,7 @@ export default () => {
                 Motivation and the desire for continuous development are one of
                 the keys to success.{" "}
               </p>
-              <button className="p-4 w-2/3 bg-lightBlack text-white font-bold text-xl rounded-sm shadow-sm shadow-lightBlack">
+              <button className="p-4 w-2/3 bg-lightBlack text-white font-bold text-xl rounded-sm shadow-lg shadow-shadowColor hover:-translate-y-1.5 transition-all duration-300">
                 CONTACT ME
               </button>
             </div>
