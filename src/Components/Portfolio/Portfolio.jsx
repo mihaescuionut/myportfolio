@@ -34,8 +34,8 @@ export default()=>{
                         <div className="flex flex-col-reverse items-center gap-4 bg-white rounded-md p-4 w-full shadow-lg shadow-shadowColor xl:p-8 xl:relative xl:w-2/3">
 
                             <div className="space-y-4 lg:pl-16">
-                                <p className="text-sm text-lightBlack w-full  indent-10 text-justify lg:text-xl xl:pl-56" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor ...</p>
-                                <p className="text-sm text-lightBlack w-full  indent-10 text-justify lg:text-xl xl:pl-56" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim....</p>
+                                <p className="text-sm text-lightBlack w-full  indent-10 text-justify lg:text-xl xl:pl-56" >This is a full stack app, where you can have two roles, user or professor. You can create your account and you can login. Once you have created an account, you have the user role. Also, you can see the most subscribed course.</p>
+                                <p className="text-sm text-lightBlack w-full  indent-10 text-justify lg:text-xl xl:pl-56" >As an user, you can subscribe and unsubscribe a course. As a professor, you can edit, delete or create courses where users can subscribe.</p>
                             </div>
 
 
@@ -55,8 +55,14 @@ export default()=>{
                         <div className="flex flex-col-reverse items-center gap-4 bg-white rounded-md p-4 w-full shadow-lg shadow-shadowColor xl:p-8 xl:relative xl:w-2/3">
 
                             <div className="space-y-4 ">
-                                <p className="text-sm text-lightBlack w-full xl:pr-56 indent-10 text-justify lg:text-xl" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor ...</p>
-                                <p className="text-sm text-lightBlack w-full xl:pr-56 indent-10 text-justify lg:text-xl" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim....</p>
+                                <p className="text-sm text-lightBlack w-full xl:pr-56 indent-10 text-justify lg:text-xl" >Back-end tech i used: <br/>- MySQL
+                                <br/>- Express
+                                <br/>- Sequelize
+                                <br/>- Jsonwebtoken/Bcrypt
+                                </p>
+                                <p className="text-sm text-lightBlack w-full xl:pr-56 indent-10 text-justify lg:text-xl" >Front-end tech i used: <br/>- React
+                                <br/>- Tailwind CSS
+                                </p>
                             </div>
 
                             <div className="rounded-lg xl:absolute xl:flex xl:justify-center xl:-right-48 xl:top-8 xl:bottom-8">

@@ -18,16 +18,16 @@ export default()=>{
 
     return(
 
-      <header onClick={handleNav} className="flex justify-between items-center mx-8 font-bold">
+      <header onClick={handleNav} className="flex justify-between items-center space-x-4 font-bold">
         <div className="flex justify-center items-center gap-8">
-          <img src={logo} alt="" />
+          <img src={logo} alt="" className=""/>
           <h1 className="hidden text-lightBlack text-md md:flex lg:text-3xl">ALEXANDRU IONUT</h1>
         </div>
 
 
 
       <nav className="z-10">
-        <ul className="flex justify-center items-center gap-2 text-md md:text-2xl">
+        <ul className="flex justify-center items-center gap-2 text-sm md:text-2xl">
           <li>
             {" "}
             <a

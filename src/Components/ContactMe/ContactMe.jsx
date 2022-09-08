@@ -33,14 +33,14 @@ export default () => {
                 </p>
               </div>
 
-              <div className="flex flex-row items-center justify-start gap-8 w-3/4">
+              <div className="flex flex-row items-center justify-start gap-2 w-3/4">
                 <img src={phone} alt=""className="h-[1.5rem] md:h-24"/>
                 <p className="text-lightBlack text-md md:text-lg lg:text-xl">
                   +40 766 759 215
                 </p>
               </div>
 
-              <div className="flex flex-row items-center justify-start gap-8 w-3/4">
+              <div className="flex flex-row items-center justify-start gap-2 w-3/4">
                 <img src={location} alt="" className="h-[1.5rem] md:h-24"/>
                 <p className="text-lightBlack text-md md:text-lg lg:text-xl">
                   Bucharest, Romania

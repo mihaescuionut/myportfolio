@@ -9,12 +9,12 @@ export default () => {
         <div className="relative w-full">
           <div className="w-full space-y-16 items-start relative">
             <div className=" text-left md:w-3/4 items-center flex justify-center w-full">
-              <h1 className=" text-2xl md:text-5xl font-bold tracking-widest">
+              <h1 className=" text-2xl md:text-5xl font-bold text-lightBlack tracking-widest">
                 I AM FRONT-END DEVELOPER
               </h1>
             </div>
 
-            <div className="space-y-2 w-full">
+            <div className="space-y-2 w-full text-lightBlack">
               <p className="text-md md:text-3xl indent-10 w-full md:w-3/4">
                 Motivation and the desire for continuous development are one of
                 the keys to success. Always a team player, based on strong
@@ -29,7 +29,7 @@ export default () => {
               </p>
             </div>
 
-            <div className="hidden w-1/5 h-52 -top-16 right-8 items-center justify-center md:flex md:absolute rectangle">
+            <div className="hidden w-1/5 h-52 -top-16 right-8 items-center justify-center md:-top-24 md:flex md:absolute rectangle">
               <div className="">
                 <img
                   src={myimg}
@@ -71,10 +71,10 @@ export default () => {
         </div>
 
         <div className="flex flex-col justify-center items-center gap-4 w-full md:flex-row md:gap-16">
-          <button className="bg-lightBlack p-4 rounded-md font-bold shadow-md shadow-lightBlack text-white w-1/2 lg:w-1/5">
+          <button className="bg-lightBlack p-4 rounded-md font-bold shadow-md shadow-lightBlack text-white hover:-translate-y-1.5 transition-all duration-300 w-1/2 lg:w-1/5">
             MY RESUME
           </button>
-          <button className="bg-myGreen p-4 rounded-md font-bold shadow-md shadow-lightBlack text-white w-1/2 lg:w-1/5">
+          <button className="bg-myGreen p-4 rounded-md font-bold shadow-md shadow-lightBlack text-white hover:-translate-y-1.5 transition-all duration-300 w-1/2 lg:w-1/5">
             PORTFOLIO
           </button>
         </div>

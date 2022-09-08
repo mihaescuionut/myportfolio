@@ -55,7 +55,7 @@ export default () => {
             <div className="space-y-8">
               <p className="text-lightBlack text-xl lg:text-2xl xl:text-4xl">
                 Motivation and the desire for continuous development are one of
-                the keys to success.{" "}
+                the keys to success.
               </p>
               <button className="p-4 w-full bg-lightBlack text-white font-bold text-md rounded-sm shadow-lg shadow-shadowColor hover:-translate-y-1.5 transition-all duration-300 md:text-xl md:w-2/3">
                 CONTACT ME
@@ -64,7 +64,7 @@ export default () => {
         </div>
 
           <div className="flex flex-col justify-start gap-16 lg:flex lg:flex-row lg:mt-16 lg:w-2/3">
-              <img src={facebook}></img>
+              <img src={facebook} ></img>
               <img src={skype}></img>
               <img src={linkedin}></img>
               <img src={instagram}></img>

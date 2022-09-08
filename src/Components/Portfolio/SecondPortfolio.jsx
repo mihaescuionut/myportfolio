@@ -30,7 +30,7 @@ export default()=>{
 
                     <div className="text-center flex flex-col gap-4 w-full">
                         <p className="text-md lg:text-xl text-lightBlack">SCHOOL PROJECT</p>
-                        <p className="text-sm lg:text-md text-lightBlack">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius...</p>
+                        <p className="text-sm lg:text-md text-lightBlack">Hero Section</p>
                     </div>
 
                 </div>
@@ -43,7 +43,7 @@ export default()=>{
 
                     <div className="text-center flex flex-col gap-4">
                         <p className="text-md lg:text-xl text-lightBlack">SCHOOL PROJECT</p>
-                        <p className="text-sm lg:text-md text-lightBlack">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius...</p>
+                        <p className="text-sm lg:text-md text-lightBlack">Features Section</p>
                     </div>
 
                 </div>
@@ -56,7 +56,7 @@ export default()=>{
 
                     <div className="text-center flex flex-col gap-4">
                         <p className="text-xl text-lightBlack">SCHOOL PROJECT</p>
-                        <p className="text-md text-lightBlack">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius...</p>
+                        <p className="text-md text-lightBlack">Courses Section</p>
                     </div>
 
                 </div>
@@ -69,7 +69,7 @@ export default()=>{
 
                     <div className="text-center flex flex-col gap-4">
                         <p className="text-xl text-lightBlack">SCHOOL PROJECT</p>
-                        <p className="text-md text-lightBlack">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius...</p>
+                        <p className="text-md text-lightBlack">Login Form</p>
                     </div>
 
                 </div>
